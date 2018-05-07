@@ -5,6 +5,8 @@ Our friendly bot-overlord notifying people when there is freshly brewed coffee i
 
 Super Chemex Bot is a Slack app that posts a message in channel when an AWS IoT button is pressed.
 
+This is a simplified version for Slack Spec and does not support multiple floors. If you want the full version check out the [main repository](https://github.com/contentful-labs/super-chemex-bot).
+
 Setup
 =====
 
