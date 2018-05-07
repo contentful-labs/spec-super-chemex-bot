@@ -16,18 +16,10 @@ function getAll () {
       return acc
     }, {message: [], configuration: []})
   }).then(function (config) {
-    return {
-      message: config.message.map(entry => {
-        return {
-          message: entry.fields.message
-        }
-      }),
-      configuration: config.configuration.reduce((acc, entry) => {
-        acc[entry.fields.deviceSerialNumber] = {
-          channel: entry.fields.slackChannel
-        }
-        return acc
-      }, {})
+    return config.message.map(entry => {
+      return {
+        message: entry.fields.message
+      }
     }
   })
 }
