@@ -20,7 +20,7 @@ function getAll () {
       return {
         message: entry.fields.message
       }
-    }
+    })
   })
 }
 
