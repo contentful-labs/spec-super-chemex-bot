@@ -21,7 +21,7 @@ Super Chemex Bot is only a small piece of code but requires a bit of configurati
  * Time to set up the button
    * Configure your button by following the [AWS tutorial](http://docs.aws.amazon.com/iot/latest/developerguide/configure-iot.html)
    * Choose to create an AWS Lambda function that is triggered by your button
-   * Add three environment variables to the Lambda function: `SLACK_API_TOKEN`, `CONTENTFUL_ACCESS_TOKEN`, `CONTENTFUL_SPACE_ID`
+   * Add four environment variables to the Lambda function: `SLACK_API_TOKEN`, `CONTENTFUL_ACCESS_TOKEN`, `CONTENTFUL_SPACE_ID`, `SLACK_CHANNEL`
     * For `CONTENTFUL_SPACE_ID` use `zsfvbjpz370n`
     * For `CONTENTFUL_ACCESS_TOKEN` use `818d5407df70dce9750c9f6b0e5dbaa501357998783b51e8d5a8891b2345ea8a`
    * [Install](http://docs.aws.amazon.com/cli/latest/userguide/installing.html) and [configure](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-quick-configuration) the AWS cli.
